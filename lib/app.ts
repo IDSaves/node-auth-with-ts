@@ -3,6 +3,9 @@ import * as bodyParser from 'body-parser'
 import { Routes } from './routes'
 import { Middlewares } from './middlewares'
 import * as mongoose from 'mongoose'
+import * as dotenv from 'dotenv'
+
+dotenv.config()
 
 class App {
 
